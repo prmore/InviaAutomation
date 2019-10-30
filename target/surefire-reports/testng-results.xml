@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="6" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="137051" started-at="2019-10-30T10:56:37Z" finished-at="2019-10-30T10:58:54Z">
+    <groups>
+    </groups>
+    <test name="ChromeTest" duration-ms="137051" started-at="2019-10-30T10:56:37Z" finished-at="2019-10-30T10:58:54Z">
+      <class name="com.invia.tests.HotelDetailsPageTest">
+        <test-method status="PASS" signature="SetHotelDetailsPageFilters()[pri:4, instance:com.invia.tests.HotelDetailsPageTest@cc285f4]" name="SetHotelDetailsPageFilters" duration-ms="78159" started-at="2019-10-30T10:57:22Z" finished-at="2019-10-30T10:58:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetHotelDetailsPageFilters -->
+        <test-method status="FAIL" signature="VerifyFlightTime()[pri:5, instance:com.invia.tests.HotelDetailsPageTest@cc285f4]" name="VerifyFlightTime" duration-ms="221" started-at="2019-10-30T10:58:40Z" finished-at="2019-10-30T10:58:40Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at com.invia.tests.HotelDetailsPageTest.VerifyFlightTime(HotelDetailsPageTest.java:59)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyFlightTime -->
+        <test-method status="PASS" signature="clickBooking()[pri:0, instance:com.invia.tests.HotelDetailsPageTest@cc285f4]" name="clickBooking" is-config="true" duration-ms="775" started-at="2019-10-30T10:58:40Z" finished-at="2019-10-30T10:58:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickBooking -->
+      </class> <!-- com.invia.tests.HotelDetailsPageTest -->
+      <class name="com.invia.tests.BookingPageTest">
+        <test-method status="PASS" signature="VerifyHotelName()[pri:8, instance:com.invia.tests.BookingPageTest@55f3ddb1]" name="VerifyHotelName" duration-ms="7709" started-at="2019-10-30T10:58:41Z" finished-at="2019-10-30T10:58:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyHotelName -->
+      </class> <!-- com.invia.tests.BookingPageTest -->
+      <class name="com.invia.tests.SearchPageTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.invia.tests.SearchPageTest@29ee9faa]" name="setup" is-config="true" duration-ms="12194" started-at="2019-10-30T10:56:37Z" finished-at="2019-10-30T10:56:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="SetSerachCriteria()[pri:0, instance:com.invia.tests.SearchPageTest@29ee9faa]" name="SetSerachCriteria" duration-ms="15624" started-at="2019-10-30T10:56:50Z" finished-at="2019-10-30T10:57:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetSerachCriteria -->
+        <test-method status="PASS" signature="doCleanUpStuff()[pri:0, instance:com.invia.tests.SearchPageTest@29ee9faa]" name="doCleanUpStuff" is-config="true" duration-ms="6005" started-at="2019-10-30T10:58:48Z" finished-at="2019-10-30T10:58:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doCleanUpStuff -->
+      </class> <!-- com.invia.tests.SearchPageTest -->
+      <class name="com.invia.tests.HotelSelectionPageTest">
+        <test-method status="PASS" signature="VerifyHotelSelectionPageFilters()[pri:2, instance:com.invia.tests.HotelSelectionPageTest@c038203]" name="VerifyHotelSelectionPageFilters" duration-ms="6421" started-at="2019-10-30T10:57:05Z" finished-at="2019-10-30T10:57:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyHotelSelectionPageFilters -->
+        <test-method status="PASS" signature="VerifyResultsSortedByHighestPrice()[pri:3, instance:com.invia.tests.HotelSelectionPageTest@c038203]" name="VerifyResultsSortedByHighestPrice" duration-ms="9478" started-at="2019-10-30T10:57:12Z" finished-at="2019-10-30T10:57:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyResultsSortedByHighestPrice -->
+        <test-method status="PASS" signature="selectHotel()[pri:0, instance:com.invia.tests.HotelSelectionPageTest@c038203]" name="selectHotel" is-config="true" duration-ms="343" started-at="2019-10-30T10:57:21Z" finished-at="2019-10-30T10:57:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectHotel -->
+      </class> <!-- com.invia.tests.HotelSelectionPageTest -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>

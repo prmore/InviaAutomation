@@ -1,0 +1,6 @@
+com\invia\pages\BookingPage.class
+com\invia\util\TestUtil.class
+com\invia\base\TestBase.class
+com\invia\pages\HotelSelectionPage.class
+com\invia\pages\HotelDetailsPage.class
+com\invia\pages\SearchPage.class

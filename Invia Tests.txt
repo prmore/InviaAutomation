@@ -1,0 +1,51 @@
+Speaking about the simplify the entire customer journey, portal is very well designed considering all the possible scenarios.
+Speaking about https://www.ab-in-den-urlaub.de portal below are the different types of tests we can perform on portal:
+
+A) Regression tests:
+	1. Verify that users with valid username and password are able to login to application successfully.
+	2. Verify that new user is able to register to the application successfully.
+	3. Verify that forgot password functionality is working fine as expected.
+	4. Click on "Urlaubsreisen" tab and fill all the required information on page(like destination, dates, number of travellers etc) and click "Angebote suchen". Verify if it lands successfully on "Hotelauswahl" page.
+	5. On  "Hotelauswahl" page verify that user is allowed to change their inputs.
+	6. On "Hotelauswahl" page test the features like select the price range using slider and verify the results, select hotels with different star ratings, customer reviews, Hotel facilities, Pool stopping, wellness, sports, entertainment in hotel etc.
+	7.  On "Hotelauswahl" page verify that user is able to sort the results using provided filters like sort by highest price, sort by lowest price, sort by most popular hotels etc.
+	8. On "Hoteldetails" page test features like change arrival time/ return time ranges, date of arrival, room type, etc.
+	9. On "Hoteldetails" page verify functionality of "Verfügbarkeit prüfen" feature.
+	10. Select any offer from "Hoteldetails" page and verify if it lands on page "Buchung".
+	11. Fill required details on "Buchung" page and click on buy check if user is able to complete the booking successfully.
+	12. Click on "Last Minute" tab and fill the required information. Verify if it successfully navigates to expected page.
+	13. Click on "Flug" tab and provide the flight information. Verify if it successfully navigates to expected page.
+	14. Click on "Hotel" tab and provide information like destination , travel dates, number of travellers, apartment type etc. and go for offers. Verify it successfully navigates to desired page.
+	15. Click on "Flug & Hotel mixen" tab and provide required details and go for offers. Verify it successfully navigates to desired page.
+	16. Click on "Kurzurlaub" tab and verify it navigates to Kurzurlaub webpage. Provide destination and click on search button. Verify the results.
+	17. Click on the "Ferienwohnungen" tab and verify user is able to search using different apartment filters like apartment type, number of bedrooms, number of bathrooms and other facilities like swimming pool, sauna etc.
+	18. Click on "Deals" tab, select any deal and verify the results
+	19. Click on "Magazin" tab and verify the results
+		Check if  Pauschalreise, All Inclusive, Flug + Hotel mixen, Hotel (Urlaubsregion), Hotel (City) and Flug tabs from the home page are working as expected.
+		
+B) Security Tests:
+	1. Check that login to application for invalid users is not allowed
+	2. Check that a password is in encrypted format
+	3. Check for the valid and invalid passwords. Also test all the rules of password are working like password should not be less than 8 characters, user id and password cannot be same etc.
+	4. Verified that sensitive information such as passwords, credit card numbers etc. should not get displayed in the input box while typing. These inputs should be shown as asterix symbol
+	5. Check access to application is not allowed by  manipulating the values in the application URL
+	6. Test that autocomplete is not enabled for sensitive information such as password, credit card information etc.
+	7. Verify that error message doesn't reveal any sensitive information so that hacker will use that information to hack the application
+	8. Verify that secure pages are using HTTPS protocol
+	9. Verify that user passwords are not getting stored in cookies
+	10. Verify if forgot password functionality is working fine and is secured using ways like security questions are asked before allowing to change password 
+
+C) Performance and Load tests:
+	1. Check if the actual page load time for https://www.ab-in-den-urlaub.de/ webpage is within the acceptable range or not
+	2. If network connection is slow then check how much time it takes to load the pages
+	3. Test the performance of the underlying database used
+	4. Test the response time of database query to fetch requested data from database
+	5. Check memory and CPU usage under peak load
+	6. Perform the stress testing of the application to insure stability of application and how application recovers form any failure
+	7. Perform the load testing of the application to check how many simultaneous user load application can handle without performance degrade 
+	8. Check the total response time for any action on the application
+	9. Check how many users application can handle in a hour, in a day
+	10. Check for the response time under heavy load
+
+	
+

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.invia.tests.HotelDetailsPageTest">
+        <methods>
+          <include name="handleHotelDetails"/>
+          <include name="clickBooking"/>
+        </methods>
+      </class> <!-- com.invia.tests.HotelDetailsPageTest -->
+      <class name="com.invia.tests.BookingPageTest">
+        <methods>
+          <include name="verifyHotelName"/>
+        </methods>
+      </class> <!-- com.invia.tests.BookingPageTest -->
+      <class name="com.invia.tests.HotelSelectionPageTest">
+        <methods>
+          <include name="sortResultsByHighestPrice"/>
+        </methods>
+      </class> <!-- com.invia.tests.HotelSelectionPageTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

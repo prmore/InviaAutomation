@@ -1,0 +1,37 @@
+2019-10-30 12:56:37,977  INFO [main] rootCategory:49 - ********************** Execution started **********************
+2019-10-30 12:56:42,067  INFO [main] rootCategory:53 - Chrome browser has been launched...
+2019-10-30 12:56:43,328 DEBUG [main] rootCategory:76 - Navigating to URL: https://www.ab-in-den-urlaub.de/
+2019-10-30 12:56:50,239  INFO [main] rootCategory:26 - ***** TC-1 : Set search criteria *****
+2019-10-30 12:56:50,240 DEBUG [main] rootCategory:67 - Set search destination to : Sizilien
+2019-10-30 12:56:53,556 DEBUG [main] rootCategory:74 - Set arrival date to : 6.11.2019
+2019-10-30 12:56:57,163 DEBUG [main] rootCategory:80 - Set departure date to : 13.11.2019
+2019-10-30 12:56:57,335 DEBUG [main] rootCategory:86 - Set value of Adults = 2 and Children = 0
+2019-10-30 12:57:05,861  INFO [main] rootCategory:43 - PASSED : Successfully set the search criteria
+2019-10-30 12:57:05,865  INFO [main] rootCategory:19 - ***** TC-2 : Verify Hotel selection page filters *****
+2019-10-30 12:57:05,871 DEBUG [main] rootCategory:56 - Set new arrival date to : 14.11.2019
+2019-10-30 12:57:06,663 DEBUG [main] rootCategory:62 - Set new departure date to : 20.11.2019
+2019-10-30 12:57:11,918 DEBUG [main] rootCategory:68 - Selected filter with 'Four stars' hotel
+2019-10-30 12:57:12,286 DEBUG [main] rootCategory:73 - Selected filter hotels with review as 'Excellent'
+2019-10-30 12:57:12,286  INFO [main] rootCategory:35 - PASSED : Hotel selection page filters verification is successful
+2019-10-30 12:57:12,287  INFO [main] rootCategory:40 - ***** TC-3 : Verify results sorted by highest price *****
+2019-10-30 12:57:12,289 DEBUG [main] rootCategory:78 - Sorting results by highest price...
+2019-10-30 12:57:21,568 DEBUG [main] rootCategory:51 - Price 1: 465 Price 2: 450
+2019-10-30 12:57:21,608 DEBUG [main] rootCategory:51 - Price 1: 450 Price 2: 327
+2019-10-30 12:57:21,652 DEBUG [main] rootCategory:51 - Price 1: 327 Price 2: 307
+2019-10-30 12:57:21,695 DEBUG [main] rootCategory:51 - Price 1: 307 Price 2: 295
+2019-10-30 12:57:21,733 DEBUG [main] rootCategory:51 - Price 1: 295 Price 2: 232
+2019-10-30 12:57:21,765 DEBUG [main] rootCategory:51 - Price 1: 232 Price 2: 194
+2019-10-30 12:57:21,765  INFO [main] rootCategory:55 - PASSED : Verification of results sorted by highest price is successful
+2019-10-30 12:57:22,107 DEBUG [main] rootCategory:103 - Offer at position 1 selected sucessfully
+2019-10-30 12:57:22,110  INFO [main] rootCategory:18 - ***** TC-4 : Set Hotel details page filters *****
+2019-10-30 12:58:40,268  INFO [main] rootCategory:39 - Number of direct flights available on the first page : 0
+2019-10-30 12:58:40,269  INFO [main] rootCategory:40 - PASSED : Successfully set hotel details page filters
+2019-10-30 12:58:40,270  INFO [main] rootCategory:49 - ***** TC-5 : Verify that Flight timings are within selected range *****
+2019-10-30 12:58:40,322 DEBUG [main] rootCategory:102 - Flight start time: 04:00 and flight end time : 19:50
+2019-10-30 12:58:40,323 DEBUG [main] rootCategory:103 - Selected range start time: 15:40 and selected range end time : 21:00
+2019-10-30 12:58:40,489 DEBUG [main] rootCategory:102 - Flight start time: 00:00 and flight end time : 18:20
+2019-10-30 12:58:40,489 DEBUG [main] rootCategory:103 - Selected range start time: 12:55 and selected range end time : 12:00
+2019-10-30 12:58:41,277  INFO [main] rootCategory:18 - ***** TC-6 : Verify hotel name on booking page vs hotel name on hotel selection page *****
+2019-10-30 12:58:48,429 DEBUG [main] rootCategory:25 - Current Hotel Name: Kore
+2019-10-30 12:58:48,985 DEBUG [main] rootCategory:30 - Expected Hotel Name: Kore
+2019-10-30 12:58:48,985  INFO [main] rootCategory:33 - PASSED : Verification of hotel name on booking page vs hotel name on hotel selection page is successful *****
